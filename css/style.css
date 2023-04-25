@@ -7,7 +7,7 @@ body {
 	font-size: 16px;
 	font-weight: 400;
 	color: #000;
-	background-color: #fff;
+	background-color: #eee;
 	min-width: 320px;
 }
 
@@ -28,10 +28,21 @@ a:hover {
 	color: #555;
 }
 
+/* Header */
+.navbar {
+	background-color: #fff;
+}
+
+.navbar-brand {
+	font-size: 24px;
+	font-weight: 500;
+}
+
 .navbar-light .navbar-nav .nav-link {
 	color: #111;
 	font-weight: 500;
 	text-transform: uppercase;
+	margin-bottom: -10px;
 }
 
 .navbar-nav .dropdown-menu {
@@ -52,13 +63,28 @@ a:hover {
 .top-menu li a:hover::after {
 	transform: scale(1);
 }
+/* Header */
 
+.container-dashboard {
+	padding: 20px;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 15px;
+	background-color: #fff;
+}
 
+.container-task {
+	padding: 20px;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 15px;
+	background-color: #fff;
+}
 
-
-
-
-
-
-
-
+.cell {
+	width: 20%;
+	height: 25%;
+	border: solid;
+	margin: 0px;
+	padding: 20px;
+}
