@@ -1,3 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 html {
 	font-size: 16px;
 }
@@ -63,14 +69,12 @@ a:hover {
 .top-menu li a:hover::after {
 	transform: scale(1);
 }
-/* Header */
+
 
 .container-dashboard {
-	padding: 20px;
-	margin-left: 2%;
-	margin-right: 2%;
-	margin-top: 15px;
-	background-color: #fff;
+  width: 1400px;
+  height: 320px;
+  border: solid #ddd;
 }
 
 .container-task {
@@ -81,12 +85,82 @@ a:hover {
 	background-color: #fff;
 }
 
-.cell {
-	width: 20%;
-	height: 25%;
-	border: solid;
-	margin: 0px;
-	padding: 20px;
+.p-3 {
+  background-color: #fff;
+  margin-bottom: 10px;
 }
 
+.cell-block {
+  min-width: 180px;
+  height: 80px;
+  text-align: left;
+  background-color: #ffffff;
+  margin-bottom: 8px;
+}
 
+.cell-number-empty{
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 25px;
+  background-color: #eee;
+  color: #00b945;
+  font-size: 20px;
+	font-weight: 700;
+  display:inline-block;
+}
+.cell-number-live {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 80px;
+  background-color: #00b945;
+  color: #ffffff;
+  font-size: 20px;
+	font-weight: 700;
+  display:inline-block;
+}
+.cell-number-reserve {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 80px;
+  background-color: #b6b900;
+  color: #ffffff;
+  font-size: 20px;
+	font-weight: 700;
+  display:inline-block;
+}
+
+.cell-number-notwork {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 80px;
+  background-color: #b90000;
+  color: #ffffff;
+  font-size: 20px;
+	font-weight: 700;
+  display:inline-block;
+}
+
+.cell {
+  width: 145px;
+  height: 80px;
+  font-size: 15px;
+	font-weight: 400;
+  margin: 5px;
+}
+
+.cell2 {
+  text-align: left;
+  background-color: #78d4ff;
+}
+
+.col {
+  cursor: pointer;
+}
